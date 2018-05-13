@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OperaDatabaseLibrary
 {
-    public class Class1
+    public class RangeModel
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string ImageLocation { get; set; }
+
     }
 }
